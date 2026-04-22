@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "components": [
+    {
+      "name": "kernel_core",
+      "match": [
+        "kernel/**",
+        "mm/**",
+        "init/**",
+        "arch/**"
+      ],
+      "default_topics": [
+        "os_kernel",
+        "memory_performance"
+      ]
+    },
+    {
+      "name": "drivers_io",
+      "match": [
+        "drivers/**",
+        "hw/**",
+        "firmware/**"
+      ],
+      "default_topics": [
+        "os_kernel",
+        "debugging_incidents"
+      ]
+    },
+    {
+      "name": "runtime_services",
+      "match": [
+        "src/runtime/**",
+        "services/**",
+        "daemon/**"
+      ],
+      "default_topics": [
+        "architecture_design",
+        "security_reliability"
+      ]
+    },
+    {
+      "name": "network_stack",
+      "match": [
+        "net/**",
+        "network/**",
+        "protocols/**"
+      ],
+      "default_topics": [
+        "networking_ipc",
+        "security_reliability"
+      ]
+    },
+    {
+      "name": "build_release",
+      "match": [
+        ".github/**",
+        "ci/**",
+        "build/**",
+        "cmake/**",
+        "scripts/**"
+      ],
+      "default_topics": [
+        "build_toolchain_ci"
+      ]
+    },
+    {
+      "name": "application_api",
+      "match": [
+        "app/**",
+        "api/**",
+        "frontend/**",
+        "backend/**"
+      ],
+      "default_topics": [
+        "frameworks_api_product",
+        "testing_qa"
+      ]
+    }
+  ]
+}

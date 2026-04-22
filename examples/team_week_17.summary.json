@@ -1,0 +1,46 @@
+{
+  "reports_count": 5,
+  "foundational_threshold": 20.0,
+  "topic_share_avg": {
+    "architecture_design": 11.0,
+    "build_toolchain_ci": 9.0,
+    "concurrency_parallelism": 13.2,
+    "data_ml_ai": 1.6,
+    "debugging_incidents": 8.0,
+    "docs_communication": 3.8,
+    "frameworks_api_product": 11.0,
+    "memory_performance": 7.8,
+    "networking_ipc": 8.0,
+    "os_kernel": 18.4,
+    "security_reliability": 3.2,
+    "testing_qa": 5.0
+  },
+  "depth_share_avg": {
+    "applied_implementation": 49.4,
+    "boilerplate_rote": 18.8,
+    "foundational": 31.8
+  },
+  "question_level_share_avg": {
+    "advanced": 42.8,
+    "expert": 18.8,
+    "introductory": 7.8,
+    "working": 30.6
+  },
+  "question_mode_share_avg": {
+    "ask_explain": 16.6,
+    "debug_diagnose": 25.6,
+    "design_decide": 17.2,
+    "implement_generate": 21.6,
+    "review_refactor": 11.6,
+    "test_validate": 7.4
+  },
+  "component_share_avg": {
+    "application_api": 23.8,
+    "build_release": 11.0,
+    "kernel_core": 24.8,
+    "network_stack": 16.6,
+    "runtime_services": 23.8
+  },
+  "fundamental_topic_share_avg": 70.6,
+  "developers_over_threshold": 5
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "modes": [
+    {
+      "id": "ask_explain",
+      "label": "Ask and explain"
+    },
+    {
+      "id": "debug_diagnose",
+      "label": "Debug and diagnose"
+    },
+    {
+      "id": "design_decide",
+      "label": "Design and decide"
+    },
+    {
+      "id": "implement_generate",
+      "label": "Implement and generate"
+    },
+    {
+      "id": "review_refactor",
+      "label": "Review and refactor"
+    },
+    {
+      "id": "test_validate",
+      "label": "Test and validate"
+    }
+  ]
+}

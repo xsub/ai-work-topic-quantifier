@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "depth_levels": [
+    {
+      "id": "foundational",
+      "label": "Foundational"
+    },
+    {
+      "id": "applied_implementation",
+      "label": "Applied implementation"
+    },
+    {
+      "id": "boilerplate_rote",
+      "label": "Boilerplate or rote"
+    }
+  ]
+}

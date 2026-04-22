@@ -1,0 +1,49 @@
+{
+  "repo_path": "/workspace/example",
+  "author": "Alice Example",
+  "since": "2026-04-14",
+  "until": "2026-04-20",
+  "commit_count": 8,
+  "files_touched": 17,
+  "additions": 482,
+  "deletions": 139,
+  "top_paths": [
+    {
+      "path": "kernel/scheduler/wq.c",
+      "additions": 73,
+      "deletions": 21
+    },
+    {
+      "path": "net/transport/timeout.c",
+      "additions": 41,
+      "deletions": 10
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 22,
+      "deletions": 7
+    }
+  ],
+  "component_stats": {
+    "kernel_core": {
+      "files": 6,
+      "additions": 221,
+      "deletions": 60
+    },
+    "network_stack": {
+      "files": 4,
+      "additions": 118,
+      "deletions": 31
+    },
+    "build_release": {
+      "files": 2,
+      "additions": 57,
+      "deletions": 15
+    },
+    "application_api": {
+      "files": 5,
+      "additions": 86,
+      "deletions": 33
+    }
+  }
+}

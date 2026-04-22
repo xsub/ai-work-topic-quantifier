@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "levels": [
+    {
+      "id": "introductory",
+      "label": "Introductory"
+    },
+    {
+      "id": "working",
+      "label": "Working"
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced"
+    },
+    {
+      "id": "expert",
+      "label": "Expert"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "topics": [
+    {
+      "id": "os_kernel",
+      "label": "Operating systems and kernel",
+      "foundational": true
+    },
+    {
+      "id": "concurrency_parallelism",
+      "label": "Concurrency and parallel programming",
+      "foundational": true
+    },
+    {
+      "id": "networking_ipc",
+      "label": "Networking, protocols, and IPC",
+      "foundational": true
+    },
+    {
+      "id": "memory_performance",
+      "label": "Memory, performance, and low-level efficiency",
+      "foundational": true
+    },
+    {
+      "id": "build_toolchain_ci",
+      "label": "Build systems, toolchains, and CI",
+      "foundational": true
+    },
+    {
+      "id": "architecture_design",
+      "label": "Architecture and design decisions",
+      "foundational": true
+    },
+    {
+      "id": "frameworks_api_product",
+      "label": "Framework, API, and product-level implementation",
+      "foundational": false
+    },
+    {
+      "id": "debugging_incidents",
+      "label": "Debugging, incidents, and failure analysis",
+      "foundational": false
+    },
+    {
+      "id": "testing_qa",
+      "label": "Testing, QA, and validation",
+      "foundational": false
+    },
+    {
+      "id": "data_ml_ai",
+      "label": "Data, ML, and AI application work",
+      "foundational": false
+    },
+    {
+      "id": "security_reliability",
+      "label": "Security, reliability, and resilience",
+      "foundational": true
+    },
+    {
+      "id": "docs_communication",
+      "label": "Documentation and communication",
+      "foundational": false
+    }
+  ]
+}

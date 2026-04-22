@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Developer Daily AI Work Report",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_kind",
+    "timebox",
+    "submitter_hash",
+    "team",
+    "basis",
+    "topic_share",
+    "depth_share",
+    "question_level_share",
+    "question_mode_share",
+    "fundamental_topic_share",
+    "confidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "report_kind": {
+      "const": "daily"
+    },
+    "timebox": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "submitter_hash": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "basis": {
+      "type": "string",
+      "enum": [
+        "ai_interactions",
+        "ai_sessions",
+        "time_estimate"
+      ]
+    },
+    "data_sources": {
+      "type": "object"
+    },
+    "topic_share": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "depth_share": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "question_level_share": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "question_mode_share": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "component_share": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "fundamental_topic_share": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "top_components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes_redacted": {
+      "type": "string"
+    }
+  }
+}

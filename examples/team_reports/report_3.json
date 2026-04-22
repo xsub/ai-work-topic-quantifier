@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "report_kind": "weekly",
+  "timebox": {
+    "start": "2026-04-14",
+    "end": "2026-04-20"
+  },
+  "submitter_hash": "6025d18fe48abd45",
+  "team": "platform",
+  "basis": "ai_interactions",
+  "data_sources": {
+    "activity_note": true,
+    "git_context": true,
+    "local_chat_export": false
+  },
+  "topic_share": {
+    "os_kernel": 21,
+    "concurrency_parallelism": 12,
+    "networking_ipc": 11,
+    "memory_performance": 10,
+    "build_toolchain_ci": 9,
+    "architecture_design": 13,
+    "frameworks_api_product": 6,
+    "debugging_incidents": 6,
+    "testing_qa": 4,
+    "data_ml_ai": 0,
+    "security_reliability": 6,
+    "docs_communication": 2
+  },
+  "depth_share": {
+    "foundational": 38,
+    "applied_implementation": 45,
+    "boilerplate_rote": 17
+  },
+  "question_level_share": {
+    "introductory": 6,
+    "working": 26,
+    "advanced": 48,
+    "expert": 20
+  },
+  "question_mode_share": {
+    "ask_explain": 14,
+    "debug_diagnose": 29,
+    "design_decide": 21,
+    "implement_generate": 18,
+    "review_refactor": 11,
+    "test_validate": 7
+  },
+  "component_share": {
+    "kernel_core": 35,
+    "network_stack": 22,
+    "build_release": 10,
+    "application_api": 12,
+    "runtime_services": 21
+  },
+  "fundamental_topic_share": 82,
+  "top_components": [
+    "kernel_core",
+    "network_stack"
+  ],
+  "confidence": "medium",
+  "assumptions": [
+    "Git context was used only to ground component share.",
+    "Implementation-oriented refactoring was not counted as foundational."
+  ],
+  "notes_redacted": ""
+}
