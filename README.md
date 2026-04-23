@@ -152,14 +152,6 @@ This writes:
 - Day 5: aggregate reports
 - Day 6: review the first team-level topic picture
 
-## Recommended position for GitHub
-
-This repository is best positioned as:
-
-> A local-first engineering analytics utility for quantifying AI-assisted work topics while minimizing privacy risk.
-
-That framing is stronger than “survey tool” and more realistic than “automated developer productivity platform.”
-
 ## Optional integration with Anthropic / Claude
 
 Keep the core vendor-neutral.
@@ -173,6 +165,3 @@ If your organization uses Anthropic Enterprise or Claude Code analytics, you can
 - Manager-visible completion tracking should be stored separately from content records.
 - Small teams need suppression rules to avoid accidental deanonymization.
 
-## License
-
-MIT
